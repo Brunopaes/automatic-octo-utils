@@ -10,12 +10,10 @@ Utils repository. Functions used in daily routines.
 
 ```bash 
 .
-└── automatic-octo-template
+└── automatic-octo-utils
     ├── data
     │   └── settings.json
     ├── docs
-    │   ├── reference_articles
-    │   ├── ...
     │   └── CREDITS
     ├── src
     │   ├── __init__.py
@@ -46,33 +44,30 @@ Utils repository. Functions used in daily routines.
 
 #### Running
 
-For running it, on the `~/src` directory just run the follow command:
+For running it, run the follow command:
 
-`python automatic_octo.py` 
+    pip install octoutils
 
-#### Notes
+After installing, just import it as a python module in your project.
 
-- Just a few notes
+```python
+from octoutils import messaging
+```
 
----------------
-
-### Versioning
+### Roadmap
 
 This project is under development.
 
-#### Roadmap
+<table>
+    <tr><td colspan="2">
+      Python
+      <br/><small><i>Roadmap</i></small>
+    </td></tr>  
+    <tr>
+      <td><small>0.1.0</small></td>
+      <td><small>2020-03-11</small></td>
+      <td width="350"><small><small>helpers.read_json, messaging.mail</small></small></td>
+    </tr>
+</table>
 
-__It needed to:__
-
-- Develop the feature #0
-    - feature #0.1:
-        - Techniques:
-            - technique #0
-            - technique #1
-            - technique #2
-    - feature #0.2:
-        - technology #0
-
-- Develop the feature #1
-
---------------
+---------------
