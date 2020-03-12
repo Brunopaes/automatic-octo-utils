@@ -1,19 +1,10 @@
-## automatic-octo-template
+## automatic-octo-utils
 
 Optimized for python 3.6
 
-This is a project template. Used in other repositories.
+Utils repository. Functions used in daily routines.
 
 ----------------------
-
-### Dependencies
-
-For developers, python requirements could be find in the project's root. For installing the requirements, 
-in your ___venv___ or ___anaconda env___, just run the following command:
-
-`pip install -r requirements.txt`
-
-----------------
 
 ### Project's Structure
 
@@ -28,11 +19,14 @@ in your ___venv___ or ___anaconda env___, just run the following command:
     │   └── CREDITS
     ├── src
     │   ├── __init__.py
-    │   └── bot.py
+    │   ├── helpers.py
+    │   ├── messaging.py
+    │   └── setup.py
     ├── tests
     │   └── unittests
-    │       ├── data
-    │       └── __init__.py
+    │       ├── __init__.py
+    │       ├── test_helpers.py
+    │       └── test_messaging.py
     ├── .gitignore
     ├── LICENSE
     ├── README.md
