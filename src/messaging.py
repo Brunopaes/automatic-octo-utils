@@ -7,7 +7,7 @@ from email import encoders
 import smtplib
 
 
-def instantiating_mail(smtp_server, port, sender, password):
+def instantiating_mail(smtp_server, port, sender, token):
     """This function instantiates the email session.
 
     Parameters
@@ -28,7 +28,7 @@ def instantiating_mail(smtp_server, port, sender, password):
     session = smtplib.SMTP(smtp_server, port)
     session.ehlo()
     session.starttls()
-    session.login(sender, password)
+    session.login(sender, token)
 
 
 def mail(sender, to, subject, content=None, attachment=None, port=25,
