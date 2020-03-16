@@ -1,4 +1,4 @@
-## automatic-octo-utils
+## hu3: Helpers and Utils functionalities
 
 Optimized for python 3.6
 
@@ -45,13 +45,14 @@ Utils repository. Functions used in daily routines.
 #### Running
 
 For running it, run the follow command:
-
-    pip install octoutils
+````shell script
+pip install hu3
+````
 
 After installing, just import it as a python module in your project.
 
 ```python
-from octoutils import messaging
+from hu3 import messaging
 ```
 
 ### Roadmap
@@ -67,6 +68,11 @@ This project is under development.
       <td><small>0.1.0</small></td>
       <td><small>2020-03-11</small></td>
       <td width="350"><small><small>helpers.read_json, messaging.mail</small></small></td>
+    </tr>
+    <tr>
+      <td><small>0.1.1</small></td>
+      <td><small>2020-03-16</small></td>
+      <td width="350"><small><small>name changes</small></small></td>
     </tr>
 </table>
 

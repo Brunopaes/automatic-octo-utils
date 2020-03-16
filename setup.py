@@ -1,17 +1,15 @@
 from distutils.core import setup
 setup(
-  name='octoutils',
+  name='hu3',
   version='0.1',
   license='MIT',
   description='Day-to-day scripts helpers.',
   author='Bruno Paes',
   author_email='brunopaes05@gmail.com',
   url='https://github.com/brunopaes/automatic-octo-utils',
-  download_url='https://github.com/brunopaes/automatic-octo-utils/archive/v_01.tar.gz',
-  keywords=['UTILS', 'HELPERS'],
+  download_url='https://github.com/Brunopaes/hu3/archive/0,1.tar.gz',
+  keywords=['utils', 'helpers', 'mail sender', 'json parser'],
   install_requires=[
-      'validators',
-      'beautifulsoup4',
   ],
   classifiers=[
     'Development Status :: 3 - Alpha',
